@@ -1,7 +1,7 @@
 <?php $cabecalho_title = "Principal"; require 'cabecalho.php';?>
 
 <div class="conteudo">
-
+	<h1>Teste de commit</h1>
 	<h3>Cadastro</h3>
 	<form method="POST">
 		<label>Nome:</label>
