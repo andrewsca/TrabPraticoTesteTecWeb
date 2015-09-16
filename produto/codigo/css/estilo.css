@@ -77,7 +77,7 @@ nav ul li a:hover{
 	border-radius: 4px;
 }
 
-form{
+.formulario-cadastro{
 	display: block;
   	width: 97.3%;
   	height: 340px;
