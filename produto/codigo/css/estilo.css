@@ -78,17 +78,36 @@ nav ul li a:hover{
 	border-radius: 4px;
 }
 
-.formulario-cadastro{
+.formulario{
 	display: block;
   	width: 97.3%;
   	height: 340px;
 
   	font-size: 16px;
   	line-height: 1.42857143;
-  	color: #555;
-  	background-color: #d9d9d9;
-  	background-image: none;
+  	color: #555;  	 
 	left: 12%;
+}
+
+.formulario fieldset{
+	position: absolute;
+	top: 8%;
+	left: 20%;
+	width: 600px;
+	height: 290px;
+	border-radius: 4px;
+	border-color: #1f7e38;;	
+}
+
+label{
+	float: left; 
+	clear: left; 
+	margin: 9px 20px 0 0; 
+	width: 95px;
+    text-align: right; 
+    font-size: 16px; 
+    color: #445668;    
+    text-shadow: 0px 1px 0px #f2f2f2;
 }
 
 input{
@@ -101,7 +120,15 @@ input{
 	border: 1px solid #1f7e38;
 }
 
+#botoes{
+	position: absolute;
+	top: 85%;
+	right: 2%;	
+}
+
+
 input[type="submit"]{
+	position: relative;
 	color: #ffffff;
   	background-color: #1f7e38;
   	padding: 5px 5px;
@@ -112,6 +139,9 @@ input[type="submit"]:focus{
  	color: #1f7e38;
 	background-color: #ffffff;
 }
+
+
+
 
 footer{
 	position: relative;
