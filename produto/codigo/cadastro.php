@@ -22,6 +22,7 @@
 
 				<label>Data Nascimento:</label>
 				<input type="date" name="nascimento" id="nascimento"></br>
+				
 				<div id="botoes">					
 					<input type="submit"  value="Cadastrar">
 				</div>
