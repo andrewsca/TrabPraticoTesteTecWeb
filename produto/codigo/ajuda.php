@@ -1,4 +1,4 @@
-<?php $cabecalho_title = "Principal"; require 'cabecalho.php';?>
+<?php $cabecalho_title = "Ajuda"; require 'cabecalho.php';?>
 
 <div class="conteudo">
 

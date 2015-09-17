@@ -12,12 +12,12 @@
 	</header>
 	<nav>
 			<ul>
-				<li><a href="#">Pagina Inicial</a></li>
-				<li><a href="#">Cadastrar</a></li>
-				<li><a href="#">Lista de Produtos</a></li>
-				<li><a href="#">Relatórios</a></li>
-				<li><a href="#">Contato</a></li>
-				<li><a href="#">Ajuda</a></li>
+				<li><a href="index.php">Pagina Inicial</a></li>
+				<li><a href="cadastro.php">Cadastrar</a></li>
+				<li><a href="listadeprodutos.php">Lista de Produtos</a></li>
+				<li><a href="relatorios.php">Relatórios</a></li>
+				<li><a href="contato.php">Contato</a></li>
+				<li><a href="ajuda.php">Ajuda</a></li>
 			</ul>
 	</nav>
 	
