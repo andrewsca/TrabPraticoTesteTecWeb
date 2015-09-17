@@ -1,4 +1,4 @@
-<?php $cabecalho_title = "Contato"; require 'cabecalho.php';?>
+<?php $cabecalho_title = "Contato"; require_once"php/includes/cabecalho.php";?>
 
 <div class="conteudo">
 	<div id="formulario-contato">		
@@ -24,7 +24,7 @@
 		</form>
 	<div>	
 		
-	<?php require 'rodape.php';?>
+	<?php require_once"php/includes/rodape.php";?>
 </div>
 	
 </body>

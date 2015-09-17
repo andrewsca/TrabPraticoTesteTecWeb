@@ -1,4 +1,4 @@
-<?php $cabecalho_title = "Ajuda"; require 'cabecalho.php';?>
+<?php $cabecalho_title = "Ajuda"; require_once"php/includes/cabecalho.php";?>
 
 <script>
 function mostrar_abas(obj) {
@@ -70,7 +70,7 @@ function mostrar_abas(obj) {
 			</div>
 		</fieldset>
 	</div>	
-	<?php require 'rodape.php';?>
+	<?php require_once"php/includes/rodape.php";?>
 </div>
 	
 </body>

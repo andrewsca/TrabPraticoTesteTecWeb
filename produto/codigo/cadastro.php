@@ -1,4 +1,4 @@
-<?php $cabecalho_title = "Cadastro"; require 'cabecalho.php';?>
+<?php $cabecalho_title = "Cadastro"; require_once"php/includes/cabecalho.php";?>
 
 <div class="conteudo">
 	<div id="formulario-cadastro">		
@@ -22,14 +22,14 @@
 
 				<label>Data Nascimento:</label>
 				<input type="date" name="nascimento" id="nascimento"></br>
-				
+
 				<div id="botoes">					
 					<input type="submit"  value="Cadastrar">
 				</div>
 			</fieldset>
 		</form>
 	<div>	
-	<?php require 'rodape.php';?>
+	<?php require_once"php/includes/rodape.php";?>
 	</div>
 	
 </body>
