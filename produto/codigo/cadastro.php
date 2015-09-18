@@ -30,7 +30,7 @@
 		</form>
 	<div>	
 	<?php require_once"php/includes/rodape.php";?>
-	</div>
+</div>
 	
 </body>
 </html>

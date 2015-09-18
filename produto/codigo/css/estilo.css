@@ -67,15 +67,95 @@ nav ul li a:hover{
 	border-top-right-radius: 20px;
 }
 
+#login{
+	position: absolute;
+	background: red;
+	top: 0%;
+	right: 25%;
+	width: auto;
+	height: auto;
+
+}
+
+
+#btn_lgn{
+	position: absolute;
+	top: 70%;
+	right: 4%;	
+}
+
+#bandeiras{
+	display: block;
+  	width: 97.3%;
+  	height: 340px;
+
+  	font-size: 16px;
+  	line-height: 1.42857143;
+  	color: #555;  	 
+	left: 12%; 
+}
+
+#bandeiras fieldset{
+	position: absolute;
+	top: 55%;
+	right: 1%;
+	width: 240px;
+	height: 200px;
+	border-radius: 4px;
+	border-color: #1f7e38;	
+}
 
 .conteudo{
 	position: absolute;
 	background: #d9d9d9;
 	top: 25%;
 	width: 75%;
-	height: auto;
+	height: 450px;
 	left: 12%;
 	border-radius: 4px;
+}
+
+.formulario-login{
+	display: block;
+  	width: 97.3%;
+  	height: 340px;
+
+  	font-size: 16px;
+  	line-height: 1.42857143;
+  	color: #555;  	 
+	left: 12%;
+}
+
+.formulario-login fieldset{
+	position: absolute;
+	top: 5%;
+	left: 15%;
+	width: 240px;
+	height: 200px;
+	border-radius: 4px;
+	border-color: #1f7e38;	
+}
+
+.formulario-login label{
+	float: left; 
+	clear: left; 
+	margin: 9px 20px 0 0;
+	margin-left: 10px; 
+	width: 95px;
+    text-align: left; 
+    font-size: 16px; 
+    color: #445668;    
+    text-shadow: 0px 1px 0px #f2f2f2;
+}
+
+.formulario-login input{
+	position: relative;
+	font-size: 18px;
+	text-align: left;
+	margin-top: 0px;
+	margin-left: 10px;
+	border-radius: 4px;
+	border: 1px solid #1f7e38;
 }
 
 .formulario{
@@ -99,7 +179,7 @@ nav ul li a:hover{
 	border-color: #1f7e38;	
 }
 
-label{
+.formulario label{
 	float: left; 
 	clear: left; 
 	margin: 9px 20px 0 0; 
@@ -110,7 +190,7 @@ label{
     text-shadow: 0px 1px 0px #f2f2f2;
 }
 
-input{
+.formulario input{
 	position: relative;
 	font-size: 18px;
 	text-align: left;
@@ -120,7 +200,7 @@ input{
 	border: 1px solid #1f7e38;
 }
 
-textarea{
+.formulario textarea{
 	position: relative;
 	font-size: 18px;
 	text-align: left;
@@ -177,7 +257,7 @@ footer{
 	text-align: center;
 	background: #1f7e38;
 	color: #ffffff;
-	top: auto;
+	top: 100%;
 	font-size: 16px;
 	border-radius: 4px;
 	
