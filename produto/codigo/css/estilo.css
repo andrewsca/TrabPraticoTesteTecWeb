@@ -114,6 +114,9 @@ nav ul li a:hover{
 	left: 12%;
 	border-radius: 4px;
 }
+p{
+	font-size: 12px;
+}
 
 .formulario-login{
 	display: block;
