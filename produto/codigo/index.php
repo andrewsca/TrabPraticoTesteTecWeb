@@ -1,7 +1,7 @@
 <?php $cabecalho_title = "Principal"; require_once"php/includes/cabecalho.php";?>
 
 <div class="conteudo">
-<div class="textos">
+<div class="textos" id="txtprincipal">
 	<p>Como já é sabido, vivemos em 2015 uma crise hídrica em nosso país, devido à escassez
 	de chuvas nos últimos anos e à falta de planejamento de longo prazo das várias esferas
 	de governo envolvidas. Neste cenário, políticas de multas e sobretaxas para desperdício
@@ -45,9 +45,9 @@
 		<fieldset>
 			<legend>Bandeiras Tarifarias</legend>
 			<ul>
-				<li><a href="http://www.cemig.com.br/pt-br/atendimento/Paginas/Bandeiras_tarif%C3%A1rias.aspx">set/2015</a></li>
-				<li><a href="http://www.cemig.com.br/pt-br/atendimento/Paginas/Bandeiras_tarif%C3%A1rias.aspx">ago/2015</a> </li>
-				<li><a href="http://www.cemig.com.br/pt-br/atendimento/Paginas/Bandeiras_tarif%C3%A1rias.aspx">jul/2015</a></li>
+				<li><img src="img/bandeira-vermelha.png"> <a href="http://www.cemig.com.br/pt-br/atendimento/Paginas/Bandeiras_tarif%C3%A1rias.aspx">Setembro</a></li>
+				<li><img src="img/bandeira-vermelha.png"> <a href="http://www.cemig.com.br/pt-br/atendimento/Paginas/Bandeiras_tarif%C3%A1rias.aspx">Agosto</a> </li>
+				<li><img src="img/bandeira-vermelha.png"> <a href="http://www.cemig.com.br/pt-br/atendimento/Paginas/Bandeiras_tarif%C3%A1rias.aspx">Julho</a></li>
 			</ul>
 
 		</fieldset>
